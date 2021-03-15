@@ -34,7 +34,7 @@ Want to have it ? Let's go for installation, don't worry it will be pretty easy
 Simply clone the repo:
 
 ```shell
-git clone https://github.com/000Zer000/Password-Generator
+git clone https://github.com/TheOddZer0/Password-Generator
 ```
 Then install the dependencies:
 ```shell
@@ -70,8 +70,8 @@ So You can easily play with the flags to generate your own QR code
 
 ## Contacting me
 
-You can reach me by emailing me (`000Zer000@protonmail.com`)
+You can reach me by emailing me (`TheOddZer0@protonmail.com`)
 
 ## License
 
-This repo is licensed under Apache 2.0, Read [COPYING](https://github.com/000Zer000/QR-creator/blob/main/COPYING) file for more info
+This repo is licensed under Apache 2.0, Read [COPYING](https://github.com/TheOddZer0/QR-creator/blob/main/COPYING) file for more info
