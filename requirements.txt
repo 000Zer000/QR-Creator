@@ -1,1 +1,1 @@
-qrcode>=6.1
+qrcode >= 6.1

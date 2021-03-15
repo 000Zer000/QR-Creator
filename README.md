@@ -36,14 +36,14 @@ Simply clone the repo:
 ```shell
 git clone https://github.com/TheOddZer0/Password-Generator
 ```
-Then install the dependencies:
+Then install with pip:
 ```shell
-pip install -r requirements.txt
+pip install .
 ```
 
 ## Usage
 
-simply run `python creator.py`, This script also allows for customization, Let's take a look at help banner:
+simply run `qr-creator`, This script also allows for customization, Let's take a look at help banner:
 
 ```text 
   -h, --help            show this help message and exit

@@ -1,2 +1,18 @@
 1.0.0:
     First release
+
+1.1.0:
+    Improvements:
+        Now not being able to read the file results into falling back to reading from STDIN
+        A bug which resulted into duplicate data is fixed
+        That unexpected print of `True` to the console is removed
+        Default output name is now out.png instead of Output.png
+        Also lack of a colon in message of reading from STDIN is not fixed
+
+    What got removed:
+        Nothing
+    
+    Additions:
+        Now you can run `pip install .` and call this program from whatever place you want
+        (I mean you should do that, Unless you want to install the dependencies manually 
+        and calling the script also manually)
