@@ -1,4 +1,3 @@
-import sys
 import argparse
 import qrcode
 
@@ -16,7 +15,9 @@ def get_input():
     return data
 
 
-def main(args):
+def main(args=None):
+    print("creator.py, Written by TheOddZer0, See COPYING file")
+    print("See original repo for more updates, details: https://github.com/TheOddZer0/QR-Creator")
     parser = argparse.ArgumentParser()
     parser.add_argument("--fore-color", "-fc",
                         help="Which color to use as the foreground color, defaults to 'black'",
@@ -77,7 +78,7 @@ def main(args):
         factory = qr.make_image(fill_color=ns.fore_color, back_color=ns.back_color)
         factory.kind = ns.kind
     except:
-        print("Unhandled exception happened, Please report this on github")
+        print("Unhandled exception happened, Please report this on github to TheOddZer0")
         raise
     try:
         factory.save(ns.output + "." + ns.kind)
@@ -88,6 +89,6 @@ def main(args):
 
 if __name__ == '__main__':
     try:
-        main(sys.argv[1:])
+        main()
     except KeyboardInterrupt:
         print("User requested exit, exiting...")
