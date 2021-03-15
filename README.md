@@ -34,7 +34,7 @@ Want to have it ? Let's go for installation, don't worry it will be pretty easy
 Simply clone the repo:
 
 ```shell
-git clone https://github.com/TheOddZer0/Password-Generator
+git clone https://github.com/TheOddZer0/QR-Creator
 ```
 Then install with pip:
 ```shell
@@ -74,4 +74,4 @@ You can reach me by emailing me (`TheOddZer0@protonmail.com`)
 
 ## License
 
-This repo is licensed under Apache 2.0, Read [COPYING](https://github.com/TheOddZer0/QR-creator/blob/main/COPYING) file for more info
+This repo is licensed under Apache 2.0, Read [COPYING](https://github.com/TheOddZer0/QR-Creator/blob/main/COPYING) file for more info
