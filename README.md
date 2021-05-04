@@ -13,12 +13,8 @@ A python script which allows you to generate QR-codes, Any kind at ANY SIZE
        
     4. png
        
-    5. gif
-       
-    6. webp
-       
-    7. png
-    
+    5. webp
+        
     Plus many other which are supported but not listed here
        
 2. Easy to use
