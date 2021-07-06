@@ -7,7 +7,7 @@
         A bug which resulted into duplicate data is fixed
         That unexpected print of `True` to the console is removed
         Default output name is now out.png instead of Output.png
-        Also lack of a colon in message of reading from STDIN is not fixed
+        Also lack of a colon in message of reading from STDIN is now fixed
 
     What got removed:
         Nothing
